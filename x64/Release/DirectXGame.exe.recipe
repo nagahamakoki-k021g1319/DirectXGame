@@ -2,27 +2,27 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\K021G1319\Downloads\KamataEngine202204011\KamataEngine\DirectXGame\x64\Release\DirectXGame.exe</FullPath>
+      <FullPath>C:\Users\K021G1319\source\repos\DirectXGame\x64\Release\DirectXGame.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles>
     <ContentFile>
-      <FullPath>C:\Users\K021G1319\Downloads\KamataEngine202204011\KamataEngine\DirectXGame\x64\Release\ObjPS.cso</FullPath>
+      <FullPath>C:\Users\K021G1319\source\repos\DirectXGame\x64\Release\ObjPS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\K021G1319\Downloads\KamataEngine202204011\KamataEngine\DirectXGame\x64\Release\ObjVS.cso</FullPath>
+      <FullPath>C:\Users\K021G1319\source\repos\DirectXGame\x64\Release\ObjVS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\K021G1319\Downloads\KamataEngine202204011\KamataEngine\DirectXGame\x64\Release\ShapePS.cso</FullPath>
+      <FullPath>C:\Users\K021G1319\source\repos\DirectXGame\x64\Release\ShapePS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\K021G1319\Downloads\KamataEngine202204011\KamataEngine\DirectXGame\x64\Release\ShapeVS.cso</FullPath>
+      <FullPath>C:\Users\K021G1319\source\repos\DirectXGame\x64\Release\ShapeVS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\K021G1319\Downloads\KamataEngine202204011\KamataEngine\DirectXGame\x64\Release\SpritePS.cso</FullPath>
+      <FullPath>C:\Users\K021G1319\source\repos\DirectXGame\x64\Release\SpritePS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\K021G1319\Downloads\KamataEngine202204011\KamataEngine\DirectXGame\x64\Release\SpriteVS.cso</FullPath>
+      <FullPath>C:\Users\K021G1319\source\repos\DirectXGame\x64\Release\SpriteVS.cso</FullPath>
     </ContentFile>
   </ContentFiles>
   <SatelliteDlls />

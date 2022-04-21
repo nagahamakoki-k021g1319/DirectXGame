@@ -1,8 +1,8 @@
 ﻿#pragma once
 
 #include "Audio.h"
-#include "DirectXCommon.h"
 #include "DebugText.h"
+#include "DirectXCommon.h"
 #include "Input.h"
 #include "Model.h"
 #include "SafeDelete.h"
@@ -16,18 +16,17 @@
 /// </summary>
 class GameScene {
 
-  public: // メンバ関数
-	/// <summary>
-	/// コンストクラタ
-	/// </summary>
+public: // メンバ関数
+  /// <summary>
+  /// コンストクラタ
+  /// </summary>
 	GameScene();
-	
 
 	/// <summary>
 	/// デストラクタ
 	/// </summary>
 	~GameScene();
-	
+
 	/// <summary>
 	/// 初期化
 	/// </summary>
@@ -43,46 +42,57 @@ class GameScene {
 	/// </summary>
 	void Draw();
 
-  private: // メンバ変数
+private: // メンバ変数
 	DirectXCommon* dxCommon_ = nullptr;
 	Input* input_ = nullptr;
 	Audio* audio_ = nullptr;
 	DebugText* debugText_ = nullptr;
-	
 
-	 private:
+private:
 	//テクスチャバンドル
 
 	uint32_t textureHandle_ = 0;
 	//スプライト
 	// Sprite* sprite = nullptr;
 
-  private:
+private:
 	// 3Dモデル
 	Model* model_ = nullptr;
 
-  private:
+private:
 	//ワールドトランスフォーム
 	WorldTransform worldTransform_[100];
 	//ビュープロジェクション
 	ViewProjection viewProjection_;
 
-  private:
+private:
 	//サウンドデータハンドル
 	// uint32t soundDataHandle = 0;
 	//音声再生ハンドル
 	// uint32t voiceHandle = 0;
 
-  private:
+private:
 	//値を表示したい変数
 	// int32t value = 0;
 
 	//カメラ上方向の角度
-	float viewAngle = 0.0f;
+	float viewAngle_ = 0.0f;
+
+public:
+	//パーツIDPartId::
+	enum PartId {
+		Root,  //大元
+		Spine, //脊椎
+		Chest, //胸
+		Head,  //頭
+		ArmL,  //右腕
+		ArmR,  //左腕
+		Hip,   //ケツ
+		Legl,  //左足
+		LegR,  //右足
+	};
 
 	/// <summary>
 	/// ゲームシーン用
 	/// </summary>
-	
-	
 };
